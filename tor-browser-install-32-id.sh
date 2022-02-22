@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Menginstal wget
-sudo apt install wget
-
 # Unduh paket Tor Browser
 wget https://www.torproject.org/dist/torbrowser/11.0.6/tor-browser-linux32-11.0.6_id.tar.xz
 
