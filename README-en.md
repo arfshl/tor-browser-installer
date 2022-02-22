@@ -8,12 +8,12 @@
 
 For 32-bit
 
-      $ ./tor-browser-installer-32-en.sh
+      $ bash tor-browser-installer-32-en.sh
 
 
 For 64-bit
 
-      $ ./tor-browser-installer-64-en.sh
+      $ bash tor-browser-installer-64-en.sh
 
 
 # [Tor repository](https://gitweb.torproject.org/tor.git)
