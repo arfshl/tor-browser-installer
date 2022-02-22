@@ -15,7 +15,7 @@ Untuk 64-bit
 
       $ bash tor-browser-installer-64-id.sh
 
-
+# [Petunjuk penginstalan resmi](https://tb-manual.torproject.org/installation/)
 # [Repositori Tor](https://gitweb.torproject.org/tor.git)
 # [Repositori Mozilla Firefox](https://hg.mozilla.org/mozilla-central/)
 # [Repositori HTTPS Everywhere](https://github.com/EFForg/https-everywhere/)
