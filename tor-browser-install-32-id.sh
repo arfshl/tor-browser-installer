@@ -6,8 +6,8 @@ wget https://www.torproject.org/dist/torbrowser/11.0.6/tor-browser-linux32-11.0.
 # Ekstrak
 tar -xf tor-browser-linux32-11.0.6_id.tar.xz
 
-# Hapus paket Tor Browser untuk membebaskan ruang
-rm tor-browser-linux32-11.0.6_id.tar.xz
+# Hapus paket Tor Browser untuk membebaskan memori
+rm tor-browser-linux32-*_id.tar.xz
 
 # Pindah ke direktori Tor Browser
 cd /Download/tor-browser-linux32-11.0.6_id
