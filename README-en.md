@@ -15,7 +15,7 @@ For 64-bit
 
       $ bash tor-browser-installer-64-en.sh
 
-
+# [Official installing guide](https://tb-manual.torproject.org/installation/)
 # [Tor repository](https://gitweb.torproject.org/tor.git)
 # [Mozilla Firefox repository](https://hg.mozilla.org/mozilla-central/)
 # [HTTPS Everywhere repository](https://github.com/EFForg/https-everywhere/)
