@@ -1,7 +1,7 @@
 # tor-browser-install
 Instal tor browser untuk linux menggunakan script shell dengan mudah
 # Cara Menggunakan
-- Download script [(32-bit)](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/tor-browser-install-32-id.sh)/[(64-bit)](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/tor-browser-install-64-id.sh)
+- Download script [(32-bit)](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/tor-browser-install-32-id.sh)/[(64-bit)](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/tor-browser-install-64-id.sh)
 - Buka Terminal
 - Pindahkan ke direktori yang berisi script (mis. /Download)
 - Untuk menjalankan script, ketik:
