@@ -1,6 +1,6 @@
 ---
 name: New version
-about: Report new version
+about: Report latest version
 title: ''
 labels: ''
 assignees: ''
