@@ -17,6 +17,8 @@ Untuk 64-bit
 
       $ bash 64id.sh
 
+# Berkontribusi
+Silahkan open issue atau pull request
 # [Petunjuk penginstalan resmi](https://tb-manual.torproject.org/installation/)
 # [Repositori Tor](https://gitweb.torproject.org/tor.git)
 # [Repositori Mozilla Firefox](https://hg.mozilla.org/mozilla-central/)
