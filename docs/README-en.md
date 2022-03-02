@@ -17,6 +17,8 @@ For 64-bit
 
       $ bash 64en.sh
 
+# Contributing
+Open a issues or a pull request
 # [Official installing guide](https://tb-manual.torproject.org/installation/)
 # [Tor repository](https://gitweb.torproject.org/tor.git)
 # [Mozilla Firefox repository](https://hg.mozilla.org/mozilla-central/)
