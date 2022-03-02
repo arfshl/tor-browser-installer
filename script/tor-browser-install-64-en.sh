@@ -1,19 +1,22 @@
 #!/bin/sh
 
-# Download Tor Browser package
+echo Downloading Tor Browser package
 wget https://www.torproject.org/dist/torbrowser/11.0.6/tor-browser-linux64-11.0.6_en-US.tar.xz
 
-# Extract
+echo Moving to download directory
+cd /Download
+
+echo Extracting
 tar -xf tor-browser-linux64-11.0.6_en-US.tar.xz
 
-# Delete Tor Browser package to free space
+echo Deleteming Tor Browser package to free space
 rm tor-browser-linux64-11.0.6_en-US.tar.xz
 
-# Move to Tor Browser directory
+echo Moving to Tor Browser directory
 cd /Download/tor-browser-linux64-11.0.6_en-US
 
-# Make the file executable
+echo Make the file executable
 chmod +x start-tor-browser.desktop
 
-# Execute + Register as app
+echo Executing + Registering Tor Browser as an app
 bash start-tor-browser.desktop --register-app
