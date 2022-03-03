@@ -26,4 +26,4 @@ chmod +x start-tor-browser.desktop
 
 echo Mengeksekusi + Mendaftarkan sebagai Aplikasi
 
-bash start-tor-browser.desktop --register-app
+./start-tor-browser.desktop --register-app
