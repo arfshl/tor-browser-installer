@@ -26,4 +26,4 @@ chmod +x start-tor-browser.desktop
 
 echo Executing + Registering Tor Browser as an app
 
-/.start-tor-browser.desktop --register-app
+./start-tor-browser.desktop --register-app
