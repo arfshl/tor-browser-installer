@@ -1,6 +1,6 @@
 # English language wiki
 # How to install Tor Browser
-1. Download the script (Right-click,select Save as, or [use wget](https://github.com/O7zSO31IVg/mozilla-firefox-non-esr-installer/blob/main/docs/README-en.md#download-file-use-wget))
+1. Download the script (Right-click,select Save as, or [use wget](https://github.com/O7zSO31IVg/mozilla-firefox-non-esr-installer/blob/main/docs/English.md#download-file-use-wget))
 
    [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en.sh) | [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en.sh)
 
