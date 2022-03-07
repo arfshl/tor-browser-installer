@@ -10,7 +10,7 @@ tar -xf tor-browser-linux*.tar.xz
 
 rm tor-browser-linux*.tar.xz
 
-cd /Download/tor-browser-linux*
+cd ~/Download/tor-browser-linux*
 
 chmod +x start-tor-browser.desktop
 
