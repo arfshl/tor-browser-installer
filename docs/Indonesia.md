@@ -15,7 +15,7 @@
 
        $ cd ~/Download
 
-4. Untuk menjalankan script, jalankan:
+4. Untuk mengeksekusi script, jalankan:
 
 - 32-bit
 
