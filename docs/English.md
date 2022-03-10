@@ -1,25 +1,28 @@
 # English language wiki
 # How to install Tor Browser
-1. Download the script (Right-click,select Save as, or [use wget](https://github.com/O7zSO31IVg/mozilla-firefox-non-esr-installer/blob/main/docs/English.md#download-file-use-wget))
+1. Open Terminal
+2. Download the script 
 
-   [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en.sh) | [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en.sh)
+- [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en.sh)
 
-2. Open Terminal
+       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en.sh -P ~/Download
 
-3. Move the directory to the directory that contains the script (e.g ~/Download)
+- [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en.sh)
+
+       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en.sh
+
+3. Move to Download directory
 
        $ cd ~/Download
 
 4. For execute script,type:
 
-For 32-bit
+- 32-bit
 
       $ sudo bash 32en.sh
 
-For 64-bit
+- 64-bit
 
       $ sudo bash 64en.sh
 
-# Download file using wget
-
-      $ wget <download_url>
+# [Official installing guide](https://tb-manual.torproject.org/installation/)
