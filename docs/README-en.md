@@ -16,7 +16,7 @@ Install tor browser for linux using a shell script easily
 
        $ cd ~/Download
 
-4. For execute script,type:
+4. For execute script, run:
 
 - 32-bit
 
