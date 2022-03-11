@@ -26,6 +26,13 @@ Instal tor browser untuk linux menggunakan script shell dengan mudah
 
       $ sudo bash 64id.sh
 
+# Metode alternatif
+Gunakan [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
+
+Install flatpak:
+
+      $ flatpak install flathub com.github.micahflee.torbrowser-launcher
+
 # Berkontribusi
 Silahkan open issue atau pull request
 # [Petunjuk penginstalan resmi](https://tb-manual.torproject.org/installation/)
