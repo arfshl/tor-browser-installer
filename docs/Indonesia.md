@@ -25,4 +25,11 @@
 
       $ sudo bash 64id.sh
 
+# Metode alternatif
+Gunakan [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
+
+Install flatpak:
+
+      $ flatpak install flathub com.github.micahflee.torbrowser-launcher
+
 # [Petunjuk penginstalan resmi](https://tb-manual.torproject.org/installation/)
