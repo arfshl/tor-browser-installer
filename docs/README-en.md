@@ -1,5 +1,5 @@
 # tor-browser-installer
-Install tor browser for linux using a shell script easily
+Tor Browser installer script
 # How to install Tor Browser
 1. Open Terminal
 2. Download the script 
