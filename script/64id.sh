@@ -4,12 +4,16 @@ wget https://dist.torproject.org/torbrowser/11.0.7/tor-browser-linux64-11.0.7_id
 
 cd ~/Download
 
-tar -xf tor-browser-linux*.tar.xz
+tar -xf tor-browser-linux64-*_id.tar.xz
 
-rm tor-browser-linux*.tar.xz
+rm tor-browser-linux64-*_id.tar.xz
 
-cd ~/Download/tor-browser-linux*
+cd ~/Download
+
+sudo mv tor-browser-linux64-*_id /opt
+
+sudo cd /opt/tor-browser-linux64-*_id
 
 chmod +x start-tor-browser.desktop
 
-./start-tor-browser.desktop --register-app
+./start-tor-browser.desktop --register-app 
