@@ -8,8 +8,6 @@ tar -xvf tor-browser-linux64-*_en-US.tar.xz
 
 rm tor-browser-linux64-*_en-US.tar.xz
 
-cd ~/Download
-
 sudo mv tor-browser-linux64-*_en-US /opt
 
 sudo cd /opt/tor-browser-linux64-*_en-US
