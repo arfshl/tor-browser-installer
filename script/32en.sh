@@ -4,7 +4,7 @@ wget https://dist.torproject.org/torbrowser/11.0.7/tor-browser-linux32-11.0.7_en
 
 cd ~/Download
 
-tar -xf tor-browser-linux32-*_en-US.tar.xz
+tar -xvf tor-browser-linux32-*_en-US.tar.xz
 
 rm tor-browser-linux32-*_en-US.tar.xz
 
