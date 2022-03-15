@@ -8,8 +8,6 @@ tar -xf tor-browser-linux32-*_id.tar.xz
 
 rm tor-browser-linux32-*_id.tar.xz
 
-cd ~/Download
-
 sudo mv tor-browser-linux32-*_id /opt
 
 sudo cd /opt/tor-browser-linux32-*_id
