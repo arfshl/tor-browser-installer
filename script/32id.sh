@@ -12,6 +12,6 @@ sudo mv tor-browser-linux32-*_id /opt
 
 sudo cd /opt/tor-browser-linux32-*_id
 
-chmod +x start-tor-browser.desktop
+sudo chmod +x start-tor-browser.desktop
 
 ./start-tor-browser.desktop --register-app 
