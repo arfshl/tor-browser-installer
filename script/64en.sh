@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wget https://dist.torproject.org/torbrowser/11.0.7/tor-browser-linux64-11.0.7_en-US.tar.xz -P ~/Download
+wget https://dist.torproject.org/torbrowser/11.0.9/tor-browser-linux64-11.0.9_en-US.tar.xz -P ~/Download
 
 cd ~/Download
 
