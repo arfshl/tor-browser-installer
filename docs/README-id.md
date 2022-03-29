@@ -1,37 +1,50 @@
 # tor-browser-install
 Script penginstal Tor Browser
-# Cara Menginstal Tor Browser
-1. Buka Terminal
-2. Download script 
-
+# Menginstal Tor Browser
 - [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id.sh)
 
-       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id.sh -P ~/Download 
+      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id.sh -P ~/Download 
+
+      $ cd ~/Download
+  
+      $ sudo bash 32id.sh
 
 - [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id.sh)
 
-       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id.sh -P ~/Download
-
-3. Pindahkan ke direktori Download
-
-       $ cd ~/Download
-
-4. Untuk mengeksekusi script, jalankan:
-
-- 32-bit
-
-      $ sudo bash 32id.sh
-
-- 64-bit
+      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id.sh
+ 
+      $ cd ~/Download
 
       $ sudo bash 64id.sh
+
+# Tanpa Sudo
+
+- [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id-su.sh)
+
+      $ su
+
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id-su.sh -P ~/Download
+     
+      # cd ~/Download
+
+      # bash 32id-su.sh
+
+- [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id-su.sh)
+
+      $ su
+
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id-su.sh -P ~/Download
+
+      # cd ~/Download
+
+      # bash 64id-su.sh
 
 # Metode alternatif
 Gunakan [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
 
-Install flatpak:
-
       $ flatpak install flathub com.github.micahflee.torbrowser-launcher
+
+      $ flatpak run com.github.micahflee.torbrowser-launcher
 
 # Berkontribusi
 Silahkan open issue atau pull request
