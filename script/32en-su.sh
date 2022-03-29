@@ -15,3 +15,5 @@ cd /opt/tor-browser-linux32-*_en-US
 chmod +x start-tor-browser.desktop
 
 ./start-tor-browser.desktop --register-app
+
+exit
