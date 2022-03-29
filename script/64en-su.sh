@@ -8,10 +8,10 @@ tar -xvf tor-browser-linux64-*_en-US.tar.xz
 
 rm tor-browser-linux64-*_en-US.tar.xz
 
-sudo mv tor-browser-linux64-*_en-US /opt
+mv tor-browser-linux64-*_en-US /opt
 
-sudo cd /opt/tor-browser-linux64-*_en-US
+cd /opt/tor-browser-linux64-*_en-US
 
-sudo chmod +x start-tor-browser.desktop
+chmod +x start-tor-browser.desktop
 
 ./start-tor-browser.desktop --register-app
