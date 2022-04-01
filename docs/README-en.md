@@ -6,7 +6,7 @@ Tor Browser installer script
 
        $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh -P ~/Download
  
-       $ cd ~/Download
+       $ cd ~/Downloads
 
        $ sudo bash install.sh
       
@@ -16,7 +16,7 @@ Tor Browser installer script
 
       # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -P ~/Download
  
-      # cd ~/Download
+      # cd ~/Downloads
 
       # bash 64en.sh
 # Alternative methods
