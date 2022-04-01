@@ -4,7 +4,7 @@ Tor Browser installer script
 1. [Download Tor Browser Package](https://www.torproject.org/download/languages/)
 2. Get Script
 
-       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh -P ~/Download
+       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh -P ~/Downloads
  
        $ cd ~/Downloads
 
@@ -14,7 +14,7 @@ Tor Browser installer script
 
       $ su
 
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -P ~/Download
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -P ~/Downloads
  
       # cd ~/Downloads
 
