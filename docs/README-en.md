@@ -10,7 +10,7 @@ Tor Browser installer script
 
        $ sudo bash install.sh
       
-# With SU
+# Superuser
 
       $ su
 
