@@ -1,12 +1,14 @@
 # tor-browser-install
 Script penginstal Tor Browser
 # Menginstal Tor Browser
+1. [Download paket Tor Browser](https://www.torproject.org/download/languages/)
+2. Script
 
-      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh
+       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh
  
-      $ cd ~/Download
+       $ cd ~/Download
 
-      $ sudo bash install.sh
+       $ sudo bash install.sh
 
 # Superuser
 
