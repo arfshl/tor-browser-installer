@@ -1,43 +1,22 @@
 # tor-browser-install
 Script penginstal Tor Browser
 # Menginstal Tor Browser
-- [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id.sh)
 
-      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id.sh -P ~/Download 
-
-      $ cd ~/Download
-  
-      $ sudo bash 32id.sh
-
-- [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id.sh)
-
-      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id.sh
+      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh
  
       $ cd ~/Download
 
-      $ sudo bash 64id.sh
+      $ sudo bash install.sh
 
-# Tanpa Sudo
-
-- [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id-su.sh)
+# Superuser
 
       $ su
 
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32id-su.sh -P ~/Download
-     
-      # cd ~/Download
-
-      # bash 32id-su.sh
-
-- [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id-su.sh)
-
-      $ su
-
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64id-su.sh -P ~/Download
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -P ~/Download
 
       # cd ~/Download
 
-      # bash 64id-su.sh
+      # bash install-su.sh
 
 # Metode alternatif
 Gunakan [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
