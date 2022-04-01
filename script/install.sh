@@ -1,8 +1,8 @@
 #!/bin/sh
-cd ~/Download
-tar -xf tor-browser-linux*.tar.xz
-rm tor-browser-linux*.tar.xz
-sudo mv tor-browser-linux* /opt
+sudo mv tor-browser-linux*.tar.bz2 /opt
+sudo cd /opt
+sudo tar xvjf tor-browser-linux*.tar.bz2
+sudo rm tor-browser-linux*.tar.bz2
 sudo cd /opt/tor-browser-linux*
 sudo chmod +x start-tor-browser.desktop
-./start-tor-browser.desktop --register-app 
+sudo ./start-tor-browser.desktop --register-app
