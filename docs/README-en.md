@@ -1,44 +1,25 @@
 # tor-browser-installer
 Tor Browser installer script
 # Install Tor Browser
+1. [Download Tor Browser Package](https://www.torproject.org/download/languages/)
+2. Script
 
-- [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en.sh)
-
-      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en.sh -P ~/Download
+      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh -P ~/Download
 
       $ cd ~/Download
   
-      $ sudo bash 64en.sh
+      $ sudo bash install.sh
 
-- [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en.sh)
+# With SU
 
-      $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en.sh
+      $ su
+
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -P ~/Download
  
-      $ cd ~/Download
-
-      $ sudo bash 64en.sh
-
-# Without Sudo
-
-- [32-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en-su.sh)
-
-      $ su
-
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/32en-su.sh -P ~/Download
-     
       # cd ~/Download
 
-      # bash 32en-su.sh
+      # bash 64en.sh
 
-- [64-bit](https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en-su.sh)
-
-      $ su
-
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/64en-su.sh -P ~/Download
-
-      # cd ~/Download
-
-      # bash 64en-su.sh
 
 # Alternative methods
 Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
