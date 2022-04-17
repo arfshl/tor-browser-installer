@@ -1,24 +1,44 @@
 # tor-browser-installer
 Tor Browser installer script
 # Install Tor Browser
-1. [Download Tor Browser Package](https://www.torproject.org/download/languages/)
-2. Get Script
+1. [Download Tor Browser Package](https://www.torproject.org/download/languages)
+2. Script
 
-       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh -P ~/Downloads
+       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh 
  
-       $ cd ~/Downloads
+       $ cd ~/<Path_to_script>
 
-       $ sudo bash install.sh
-      
+       $ sudo sh install.sh
+
 # Superuser
 
       $ su
 
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -P ~/Downloads
- 
-      # cd ~/Downloads
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh 
 
-      # bash 64en.sh
+      # cd ~/<Path_to_script>
+
+      # sh install-su.sh
+
+# Metode alternatif
+Gunakan [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
+
+      $ flatpak install flathub com.github.micahflee.torbrowser-launcher
+
+      $ flatpak run com.github.micahflee.torbrowser-launcher
+
+# Berkontribusi
+Silahkan open issue atau pull request
+# [Petunjuk penginstalan resmi](https://tb-manual.torproject.org/installation/)
+# [Repositori Tor](https://gitweb.torproject.org/tor.git)
+# [Repositori Mozilla Firefox](https://hg.mozilla.org/mozilla-central/)
+# [Repositori HTTPS Everywhere](https://github.com/EFForg/https-everywhere/)
+# [Repositori NoScript](https://github.com/hackademix/noscript)
+# Credit
+[@Mozilla](https://github.com/mozilla/) [@EFForg](https://github.com/EFForg) [@Hackademix](https://github.com/hackademix)
+
+
+© Tor Project © Mozilla © EFF © Hackademix
 # Alternative methods
 Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
 
