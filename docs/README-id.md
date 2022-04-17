@@ -1,4 +1,4 @@
-# tor-browser-install
+# tor-browser-installer
 Script penginstal Tor Browser
 # Menginstal Tor Browser
 1. [Download paket Tor Browser](https://www.torproject.org/download/languages/)
