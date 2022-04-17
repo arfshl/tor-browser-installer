@@ -14,11 +14,11 @@ Tor Browser installer script
 
       $ su
 
-      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh 
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -O instal.sh
 
       # cd ~/<Path_to_script>
 
-      # sh install-su.sh
+      # sh install.sh
 
 # Metode alternatif
 Gunakan [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
