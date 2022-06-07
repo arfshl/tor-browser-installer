@@ -27,8 +27,6 @@ Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
 
       $ flatpak run com.github.micahflee.torbrowser-launcher
 
-# Contributing
-Open a issues or a pull request
 # [Official installing guide](https://tb-manual.torproject.org/installation/)
 # [Tor repository](https://gitweb.torproject.org/tor.git)
 # [Mozilla Firefox repository](https://hg.mozilla.org/mozilla-central/)
