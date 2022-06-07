@@ -1,4 +1,41 @@
 # tor-browser-installer
-[English](https://github.com/O7zSO31IVg/tor-browser-installer/blob/main/docs/README-en.md)
+Tor Browser installer script
+# Install Tor Browser
+1. [Download Tor Browser Package](https://www.torproject.org/download/languages)
+2. Script
 
-[Indonesia](https://github.com/O7zSO31IVg/tor-browser-installer/blob/main/docs/README-id.md)
+       $ wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install.sh 
+ 
+       $ cd ~/<Path_to_script>
+
+       $ sudo sh install.sh
+
+# Superuser
+
+      $ su
+
+      # wget https://raw.githubusercontent.com/O7zSO31IVg/tor-browser-installer/main/script/install-su.sh -O instal.sh
+
+      # cd ~/<Path_to_script>
+
+      # sh install.sh
+
+# Alternative methods
+Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
+
+      $ flatpak install flathub com.github.micahflee.torbrowser-launcher
+
+      $ flatpak run com.github.micahflee.torbrowser-launcher
+
+# Contributing
+Open a issues or a pull request
+# [Official installing guide](https://tb-manual.torproject.org/installation/)
+# [Tor repository](https://gitweb.torproject.org/tor.git)
+# [Mozilla Firefox repository](https://hg.mozilla.org/mozilla-central/)
+# [HTTPS Everywhere repository](https://github.com/EFForg/https-everywhere/)
+# [NoScript repository](https://github.com/hackademix/noscript)
+# Credit
+[@Mozilla](https://github.com/mozilla/) [@EFForg](https://github.com/EFForg) [@Hackademix](https://github.com/hackademix)
+
+
+© Tor Project © Mozilla © EFF © Hackademix
