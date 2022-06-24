@@ -1,6 +1,6 @@
 #!/bin/sh
-print "Tor browser installer"
-print "mv tor-browser-linux*.tar.bz2 /opt
+echo "Tor browser installer"
+echo "mv tor-browser-linux*.tar.bz2 /opt
 cd /opt
 tar xvjf tor-browser-linux*.tar.bz2
 rm tor-browser-linux*.tar.bz2
