@@ -10,5 +10,3 @@ Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
       flatpak install flathub com.github.micahflee.torbrowser-launcher
 
       flatpak run com.github.micahflee.torbrowser-launcher
-
-## [Official installing guide](https://tb-manual.torproject.org/installation/)
