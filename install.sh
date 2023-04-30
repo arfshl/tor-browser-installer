@@ -1,9 +1,11 @@
 #!/bin/sh
 echo "Installing Tor Browser..."
-sudo wget https://www.torproject.org/dist/torbrowser/12.0.4/tor-browser-linux64-12.0.4_ALL.tar.xz -P /opt
-sudo cd /opt
-sudo tar xvf tor-browser-linux*.tar.xz
-sudo rm tor-browser-linux*.tar.xz
-sudo cd /opt/tor-browser-linux*
+cd ~/
+wget https://www.torproject.org/dist/torbrowser/12.0.5/tor-browser-linux64-12.0.5_ALL.tar.xz -P ~/
+tar xvf tor-browser-linux*.tar.xz
+cd tor-browser-linux*
+sudo chmod 775 *
 sudo chmod +x start-tor-browser.desktop
-sudo ./start-tor-browser.desktop --register-app
+./start-tor-browser.desktop --register-app
+cd ~/
+rm install.sh tor-browser-linux*.tar.xz
