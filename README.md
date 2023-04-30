@@ -8,3 +8,8 @@ Tor Browser installer script
 Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
 
     flatpak install flathub com.github.micahflee.torbrowser-launcher && flatpak run com.github.micahflee.torbrowser-launcher
+
+## Updating Tor Browser
+[Official Manual](https://tb-manual.torproject.org/updating)
+## Removing Tor Browser
+[Official Manual](https://tb-manual.torproject.org/uninstalling)
