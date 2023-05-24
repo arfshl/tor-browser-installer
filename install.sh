@@ -5,5 +5,5 @@ tar xvf /opt/tor-browser-linux*.tar.xz
 chmod -R /opt/tor-browser*
 sudo chmod +x /opt/tor-browser/start-tor-browser.desktop
 cd /opt/tor-browser*
-./start-tor-browser.desktop --register-app
+sudo ./start-tor-browser.desktop --register-app
 rm ~/install.sh /opt/tor-browser-linux*.tar.xz
