@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Installing Tor Browser..."
-wget https://www.torproject.org/dist/torbrowser/12.5.6/tor-browser-linux64-12.5.6_ALL.tar.xz -P /opt
+wget https://www.torproject.org/dist/torbrowser/13.0/tor-browser-linux-x86_64-13.0.tar.xz -P /opt
 tar xvf /opt/tor-browser-linux*.tar.xz
 chmod -R /opt/tor-browser*
 sudo chmod +x /opt/tor-browser/start-tor-browser.desktop
