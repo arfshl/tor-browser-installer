@@ -3,6 +3,10 @@ Tor Browser for Linux installer script
 ## Install Tor Browser
 
     wget https://raw.githubusercontent.com/arfshl/tor-browser-installer/main/install.sh -P ~/ && sudo sh ~/install.sh
+
+# Local Install (At home directory)
+
+    wget https://raw.githubusercontent.com/arfshl/tor-browser-installer/main/install.sh -P ~/ && sudo sh ~/install.sh
  
 ## Alternative methods
 Using [torbrowser-launcher](https://github.com/micahflee/torbrowser-launcher)
