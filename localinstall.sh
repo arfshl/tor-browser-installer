@@ -8,4 +8,4 @@ chmod -R ~/tor-browser/tor-browser*
 chmod +x ~/tor-browser/tor-browser/start-tor-browser.desktop
 cd ~/tor-browser/tor-browser*
 ./start-tor-browser.desktop --register-app
-rm ~/install.sh ~/tor-browser/tor-browser-linux*.tar.xz
+rm ~/localinstall.sh ~/tor-browser/tor-browser-linux*.tar.xz
