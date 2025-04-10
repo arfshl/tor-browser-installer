@@ -1,3 +1,4 @@
+#### Moved to https://github.com/arfshl/my-tarball-installer
 # tor-browser-installer
 Tor Browser for Linux installer script
 ## Install Tor Browser
